@@ -1,14 +1,54 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637956023000,
+    "generated": 1637956696000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 35
+    "count": 36
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "Reykjanes Ridge",
+        "time": 1637954981029,
+        "updated": 1637956498040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxbp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxbp.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000fxbp",
+        "ids": ",us7000fxbp,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 8.897,
+        "rms": 0.74,
+        "gap": 71,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - Reykjanes Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.1029,
+          54.1916,
+          10
+        ]
+      },
+      "id": "us7000fxbp"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -53,13 +93,13 @@
       "type": "Feature",
       "properties": {
         "mag": 5.3,
-        "place": "99 km NE of Hihifo, Tonga",
-        "time": 1637951588810,
-        "updated": 1637955665465,
+        "place": "125 km NE of Hihifo, Tonga",
+        "time": 1637951588550,
+        "updated": 1637956104187,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxb8",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxb8.geojson",
-        "felt": 2,
+        "felt": 3,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
@@ -72,18 +112,18 @@
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": null,
-        "dmin": 4.991,
-        "rms": 1.03,
-        "gap": 171,
+        "dmin": 1.689,
+        "rms": 1.34,
+        "gap": 66,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.3 - 99 km NE of Hihifo, Tonga"
+        "title": "M 5.3 - 125 km NE of Hihifo, Tonga"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -173.0805,
-          -15.3873,
+          -173.0216,
+          -15.1046,
           10
         ]
       },
@@ -92,10 +132,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.66,
+        "mag": 2.77,
         "place": "17km WSW of Toms Place, CA",
         "time": 1637951272100,
-        "updated": 1637953396095,
+        "updated": 1637956159132,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73658195",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73658195.geojson",
@@ -103,28 +143,28 @@
         "cdi": null,
         "mmi": null,
         "alert": null,
-        "status": "automatic",
+        "status": "reviewed",
         "tsunami": 0,
-        "sig": 109,
+        "sig": 118,
         "net": "nc",
         "code": "73658195",
         "ids": ",nc73658195,",
         "sources": ",nc,",
         "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
         "nst": 19,
-        "dmin": 0.09388,
+        "dmin": 0.09385,
         "rms": 0.04,
         "gap": 74,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.7 - 17km WSW of Toms Place, CA"
+        "title": "M 2.8 - 17km WSW of Toms Place, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.8553314,
-          37.498333,
-          4.18
+          -118.8551667,
+          37.4983333,
+          4.19
         ]
       },
       "id": "nc73658195"
