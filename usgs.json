@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1637927176000,
+    "generated": 1637927896000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -9,6 +9,46 @@
     "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "116 km NNE of Ambler, Alaska",
+        "time": 1637927160408,
+        "updated": 1637927743904,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021f5y65kg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021f5y65kg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "021f5y65kg",
+        "ids": ",ak021f5y65kg,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1.23,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 116 km NNE of Ambler, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.7649,
+          68.0478,
+          0
+        ]
+      },
+      "id": "ak021f5y65kg"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -655,17 +695,17 @@
         "mag": 6.2,
         "place": "19 km SW of Falam, Myanmar",
         "time": 1637883941750,
-        "updated": 1637925558184,
+        "updated": 1637927782705,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fx45",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fx45.geojson",
-        "felt": 271,
+        "felt": 273,
         "cdi": 7.5,
         "mmi": 6.3,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 795,
+        "sig": 796,
         "net": "us",
         "code": "7000fx45",
         "ids": ",us7000fx45,",
@@ -1328,54 +1368,14 @@
         ]
       },
       "id": "us7000fwzz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.48000002,
-        "place": "5 km SSW of Pāhala, Hawaii",
-        "time": 1637840838990,
-        "updated": 1637841169670,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72811077",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72811077.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 95,
-        "net": "hv",
-        "code": "72811077",
-        "ids": ",hv72811077,",
-        "sources": ",hv,",
-        "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": null,
-        "rms": 0.119999997,
-        "gap": 149,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 5 km SSW of Pāhala, Hawaii"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -155.495162963867,
-          19.1546669006348,
-          36.1199989318848
-        ]
-      },
-      "id": "hv72811077"
     }
   ],
   "bbox": [
     -179.1856,
     -29.5558,
-    4,
+    0,
     175.1081,
-    61.2354,
+    68.0478,
     615.06
   ]
 }
