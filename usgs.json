@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638078976000,
+    "generated": 1638080779000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -12,10 +12,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 3.2,
+        "place": "western Texas",
+        "time": 1638079150556,
+        "updated": 1638080113300,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021xhfj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021xhfj.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 158,
+        "net": "tx",
+        "code": "2021xhfj",
+        "ids": ",us7000fxmy,tx2021xhfj,",
+        "sources": ",us,tx,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.1108347508,
+        "rms": 0.2,
+        "gap": 53,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.2 - western Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.2436354,
+          31.67497601,
+          7.288427734
+        ]
+      },
+      "id": "tx2021xhfj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 2.8,
-        "place": "northern Alaska",
-        "time": 1638078714555,
-        "updated": 1638078950247,
+        "place": "20 km WSW of Venetie, Alaska",
+        "time": 1638078715308,
+        "updated": 1638079382086,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021f95pfpr",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021f95pfpr.geojson",
@@ -33,18 +73,18 @@
         "types": ",origin,",
         "nst": null,
         "dmin": null,
-        "rms": 0.71,
+        "rms": 0.77,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.8 - northern Alaska"
+        "title": "M 2.8 - 20 km WSW of Venetie, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -146.8357,
-          66.9664,
-          90.5
+          -146.8561,
+          66.9407,
+          73.9
         ]
       },
       "id": "ak021f95pfpr"
@@ -328,6 +368,46 @@
         ]
       },
       "id": "pr2021332004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.04,
+        "place": "37 km N of Culebra, Puerto Rico",
+        "time": 1638065596540,
+        "updated": 1638080656538,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2021332002",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2021332002.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 142,
+        "net": "pr",
+        "code": "2021332002",
+        "ids": ",pr2021332002,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 14,
+        "dmin": 0.3365,
+        "rms": 0.36,
+        "gap": 275,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - 37 km N of Culebra, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.316,
+          18.6423,
+          67
+        ]
+      },
+      "id": "pr2021332002"
     },
     {
       "type": "Feature",
@@ -653,7 +733,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "Andreanof Islands, Aleutian Islands, Alaska",
+        "place": "90 km NNE of Adak, Alaska",
         "time": 1638057085158,
         "updated": 1638059422906,
         "tz": null,
@@ -677,7 +757,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - Andreanof Islands, Aleutian Islands, Alaska"
+        "title": "M 3.0 - 90 km NNE of Adak, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1613,7 +1693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.76,
-        "place": "16 km SSE of Guánica, Puerto Rico",
+        "place": "Puerto Rico region",
         "time": 1638011025070,
         "updated": 1638015645534,
         "tz": null,
@@ -1637,7 +1717,7 @@
         "gap": 257,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - 16 km SSE of Guánica, Puerto Rico"
+        "title": "M 2.8 - Puerto Rico region"
       },
       "geometry": {
         "type": "Point",
@@ -1888,86 +1968,6 @@
         ]
       },
       "id": "nc73658540"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "50 km WSW of Anchor Point, Alaska",
-        "time": 1637993914790,
-        "updated": 1637994743829,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021f7ikemf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021f7ikemf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "021f7ikemf",
-        "ids": ",us7000fxfb,ak021f7ikemf,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.61,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 50 km WSW of Anchor Point, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -152.6945,
-          59.6538,
-          98.3
-        ]
-      },
-      "id": "ak021f7ikemf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "116 km SE of Sarangani, Philippines",
-        "time": 1637992912992,
-        "updated": 1637998101067,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxf8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxf8.geojson",
-        "felt": 2,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 417,
-        "net": "us",
-        "code": "7000fxf8",
-        "ids": ",us7000fxf8,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": null,
-        "dmin": 2.426,
-        "rms": 0.8,
-        "gap": 80,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.2 - 116 km SE of Sarangani, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.268,
-          4.7268,
-          75.18
-        ]
-      },
-      "id": "us7000fxf8"
     }
   ],
   "bbox": [
