@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638067216000,
+    "generated": 1638068222000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -93,7 +93,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.7,
-        "place": "northern Alaska",
+        "place": "6 km SSW of Venetie, Alaska",
         "time": 1638063587483,
         "updated": 1638066089040,
         "tz": null,
@@ -117,7 +117,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.7 - northern Alaska"
+        "title": "M 3.7 - 6 km SSW of Venetie, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "90 km NNE of Adak, Alaska",
+        "place": "Andreanof Islands, Aleutian Islands, Alaska",
         "time": 1638057085158,
         "updated": 1638059422906,
         "tz": null,
@@ -357,7 +357,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 90 km NNE of Adak, Alaska"
+        "title": "M 3.0 - Andreanof Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -408,6 +408,46 @@
         ]
       },
       "id": "pr2021331007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "133 km W of Haveluloto, Tonga",
+        "time": 1638054039199,
+        "updated": 1638067361040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxki",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxki.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000fxki",
+        "ids": ",us7000fxki,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 6.206,
+        "rms": 0.91,
+        "gap": 120,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 133 km W of Haveluloto, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -176.492,
+          -21.2335,
+          190.38
+        ]
+      },
+      "id": "us7000fxki"
     },
     {
       "type": "Feature",
@@ -1253,7 +1293,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.76,
-        "place": "Puerto Rico region",
+        "place": "16 km SSE of Guánica, Puerto Rico",
         "time": 1638011025070,
         "updated": 1638015645534,
         "tz": null,
@@ -1277,7 +1317,7 @@
         "gap": 257,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.8 - Puerto Rico region"
+        "title": "M 2.8 - 16 km SSE of Guánica, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
@@ -1888,54 +1928,14 @@
         ]
       },
       "id": "tx2021xffi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "57 km S of Whites City, New Mexico",
-        "time": 1637981197675,
-        "updated": 1637981979010,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2021xfdn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2021xfdn.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "tx",
-        "code": "2021xfdn",
-        "ids": ",us7000fxds,tx2021xfdn,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 16,
-        "dmin": 0.1094152172,
-        "rms": 0.3,
-        "gap": 62,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 57 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.3727157,
-          31.66135932,
-          6.979931641
-        ]
-      },
-      "id": "tx2021xfdn"
     }
   ],
   "bbox": [
-    -176.0142,
+    -176.492,
     -59.4627,
     1.76,
     165.7956,
     85.4413,
-    179.8
+    190.38
   ]
 }
