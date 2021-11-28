@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1638128408000,
+    "generated": 1638129423000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
@@ -15,12 +15,12 @@
         "mag": 2.5,
         "place": "49 km NNE of Ouzinkie, Alaska",
         "time": 1638127492585,
-        "updated": 1638127876200,
+        "updated": 1638128650192,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak021f9dvpo2",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak021f9dvpo2.geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 1,
+        "cdi": 2.2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
@@ -30,7 +30,7 @@
         "code": "021f9dvpo2",
         "ids": ",ak021f9dvpo2,",
         "sources": ",ak,",
-        "types": ",origin,",
+        "types": ",dyfi,origin,",
         "nst": null,
         "dmin": null,
         "rms": 0.46,
@@ -128,6 +128,46 @@
         ]
       },
       "id": "tx2021xief"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "89 km ESE of Margherita, India",
+        "time": 1638118941027,
+        "updated": 1638129191040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxsb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxsb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000fxsb",
+        "ids": ",us7000fxsb,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": 6.216,
+        "rms": 0.99,
+        "gap": 96,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 89 km ESE of Margherita, India"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          96.5108,
+          26.9941,
+          10
+        ]
+      },
+      "id": "us7000fxsb"
     },
     {
       "type": "Feature",
@@ -653,7 +693,7 @@
       "type": "Feature",
       "properties": {
         "mag": 4,
-        "place": "Near the coast of Valparaiso, Chile",
+        "place": "65 km W of La Ligua, Chile",
         "time": 1638092237623,
         "updated": 1638107531742,
         "tz": null,
@@ -677,7 +717,7 @@
         "gap": 134,
         "magType": "mwr",
         "type": "earthquake",
-        "title": "M 4.0 - Near the coast of Valparaiso, Chile"
+        "title": "M 4.0 - 65 km W of La Ligua, Chile"
       },
       "geometry": {
         "type": "Point",
@@ -853,7 +893,7 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "Colorado",
+        "place": "11 km NNE of Hoehne, Colorado",
         "time": 1638087134466,
         "updated": 1638112033981,
         "tz": null,
@@ -877,7 +917,7 @@
         "gap": 70,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - Colorado"
+        "title": "M 2.7 - 11 km NNE of Hoehne, Colorado"
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1173,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.2,
-        "place": "western Texas",
+        "place": "56 km SSE of Whites City, New Mexico",
         "time": 1638079150556,
         "updated": 1638087053726,
         "tz": null,
@@ -1157,7 +1197,7 @@
         "gap": 53,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.2 - western Texas"
+        "title": "M 3.2 - 56 km SSE of Whites City, New Mexico"
       },
       "geometry": {
         "type": "Point",
@@ -1573,7 +1613,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3.7,
-        "place": "northern Alaska",
+        "place": "6 km SSW of Venetie, Alaska",
         "time": 1638063587483,
         "updated": 1638066089040,
         "tz": null,
@@ -1597,7 +1637,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.7 - northern Alaska"
+        "title": "M 3.7 - 6 km SSW of Venetie, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -1813,7 +1853,7 @@
       "type": "Feature",
       "properties": {
         "mag": 3,
-        "place": "90 km NNE of Adak, Alaska",
+        "place": "Andreanof Islands, Aleutian Islands, Alaska",
         "time": 1638057085158,
         "updated": 1638059422906,
         "tz": null,
@@ -1837,7 +1877,7 @@
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.0 - 90 km NNE of Adak, Alaska"
+        "title": "M 3.0 - Andreanof Islands, Aleutian Islands, Alaska"
       },
       "geometry": {
         "type": "Point",
@@ -2128,46 +2168,6 @@
         ]
       },
       "id": "us7000fxjx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "41 km SW of Santiago del Estero, Argentina",
-        "time": 1638042022970,
-        "updated": 1638115687529,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fxjk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000fxjk.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 285,
-        "net": "us",
-        "code": "7000fxjk",
-        "ids": ",us7000fxjk,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": 4.3,
-        "rms": 0.51,
-        "gap": 55,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 41 km SW of Santiago del Estero, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.5012,
-          -28.1024,
-          10
-        ]
-      },
-      "id": "us7000fxjk"
     }
   ],
   "bbox": [
